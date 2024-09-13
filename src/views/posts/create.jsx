@@ -57,9 +57,9 @@ export default function PostCreate() {
                   </div>
                   <div className="mb-3">
                     <label htmlFor="exampleFormControlInput1" className="form-label">
-                      Tittle
+                      Title
                     </label>
-                    <input type="text" className="form-control" onChange={(e) => setTitle(e.target.value)} id="title" placeholder="judul" />
+                    <input type="text" className="form-control" onChange={(e) => setTitle(e.target.value)} id="title" placeholder="Judul" />
                     {errors.title && <div className="alert alert-danger mt-2">{errors.title[0]}</div>}
                   </div>
                   <div className="mb-3">
